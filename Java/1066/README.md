@@ -1,0 +1,1 @@
+Verifica se os valores inseridos são pares, impares, positivos e negativos

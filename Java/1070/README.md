@@ -1,0 +1,1 @@
+Verifica quais valores são ímpares dentro de 6 valores inseridos

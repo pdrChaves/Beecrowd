@@ -1,0 +1,1 @@
+Calcula o intervalo de tempo do valor inserido

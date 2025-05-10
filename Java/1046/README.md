@@ -1,0 +1,1 @@
+Calcula a quantidade de tempo em um jogo
