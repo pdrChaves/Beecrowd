@@ -17,4 +17,5 @@
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
     "explorer.compactFolders": false,
+    "C_Cpp.default.compilerPath": "C:/MinGW/bin/gcc.exe",
 }
