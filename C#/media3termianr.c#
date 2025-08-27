@@ -1,0 +1,38 @@
+using System;
+class URI
+{
+    static void Main(String[] args)
+    {
+        float n1, n2, n3, n4, media;
+        n1 = float.Parse(Console.ReadLine());
+        n2 = float.Parse(Console.ReadLine());
+        n3 = float.Parse(Console.ReadLine());
+        n4 = float.Parse(Console.ReadLine());
+        media = (((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4)) / 10);
+        float novaMedia;
+
+        if (media >= 7)
+        {
+            Console.WriteLine("Aluno aprovado.");
+        }
+        if (media < 5)
+        {
+            Console.WriteLine("Aluno reprovado.");
+        }
+        else
+        {
+            Console.WriteLine("Aluno em exame.");
+            float exame = float.Parse(Console.ReadLine());
+            novaMedia = (media + exame) / 2;
+            if (exame >= 7)
+            {
+                Console.WriteLine("Aluno aprovado.");
+            }
+            else
+            {
+                Console.WriteLine("Aluno reprovado.");
+            }
+            Console.WriteLine($"Media final: {novaMedia:F1}");
+        }
+    }
+}
