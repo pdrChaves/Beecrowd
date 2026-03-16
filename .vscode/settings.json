@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "Java/1048",
         "Java/1001/src",
         "Java/1000/src",
-        "Java/1040"
+        "Java/1047"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
