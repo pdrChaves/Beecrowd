@@ -10,7 +10,7 @@
         "lib/**/*.jar",
     ],
     "java.debug.settings.onBuildFailureProceed": true,
-    "workbench.iconTheme": "symbols",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
     "editor.rulers": [80, 120],
